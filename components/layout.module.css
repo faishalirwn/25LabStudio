@@ -1,0 +1,29 @@
+.container {
+    /* padding: 0 2rem; */
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 100px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.nav-right {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
