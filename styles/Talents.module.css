@@ -26,6 +26,7 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));    
 }
 
@@ -41,4 +42,9 @@
 
 .talents-info h2 {
     margin-bottom: 12px;
+    font-size: 30px;
+}
+
+.talents-info p {
+    font-size: 22px;
 }
