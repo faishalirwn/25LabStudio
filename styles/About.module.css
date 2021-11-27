@@ -1,0 +1,44 @@
+.about-container {
+    display: flex;
+    padding-top: 100px;
+}
+
+.about {
+    width: 45%;
+    padding-left: 75px;
+    padding-right: 65px;
+    position: relative;
+}
+
+.about h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.about span {
+    font-weight: 100;
+}
+
+.about::before {
+    content: "T";
+    position: absolute;
+    font-size: 288px;
+    font-weight: 900;
+    top: -95px;
+    left: 0px;
+    opacity: 0.3;
+    color: white;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.about p {
+    margin-top: 45px;
+}
+
+.slider {
+    padding-left: 65px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
