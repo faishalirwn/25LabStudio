@@ -7,7 +7,7 @@ export default function About() {
     return (
         <Layout>
             <Head>
-                <title>About | {siteTitle}</title>
+                <title>About - {siteTitle}</title>
             </Head>
             
             <div className={styles["about-container"]}>
