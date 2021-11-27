@@ -48,3 +48,37 @@
 .talents-info p {
     font-size: 22px;
 }
+
+@media (max-width: 1440px) {
+    .talents-container h1 {
+        font-size: 100px;
+    }
+
+    .talents-item {
+        width: 249.6px;
+        height: 387.2px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .talents-container h1 {
+        font-size: 75px;
+    }
+
+    .talents-item {
+        width: 187.2px;
+        height: 290.4px;
+        margin-bottom: 100px;
+        margin-left: 75px;
+    }
+
+    .talents-info h2 {
+        font-size: 24px;
+    }
+    
+    .talents-info p {
+        font-size: 18px;
+    }
+}
