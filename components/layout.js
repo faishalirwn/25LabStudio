@@ -13,8 +13,7 @@ export default function Layout({ children }) {
 
             <nav className={styles.nav}>
                 <Link href="/">
-                    <a className={styles.logo} target="_blank" rel="noopener noreferrer">
-                        
+                    <a className={styles.logo}>
                     </a>
                 </Link>
                 <ul className={styles["nav-right"]}>
