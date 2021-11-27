@@ -45,3 +45,21 @@
     color: white;
 
 }
+
+
+@media (max-width: 500px) {    
+    .contact-container {
+        top: 160.6px;
+        height: calc(100vh - 160.6px);
+    }    
+}
+
+@media (max-width: 425px) {
+    .contact {
+        /* TBW */
+    }
+    
+    .footer {
+        padding: 25px 50px;
+    }
+}
