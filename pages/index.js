@@ -12,14 +12,16 @@ export default function Home() {
         </Head>
         
         <div className={styles.main}>
-          <h2>Introducing</h2>
-          <h1>25LabStudio</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <Link href="/about">
-            <a className={styles.about}>
-              tentang kami
-            </a>
-          </Link>
+          <div className={styles.intro}>
+            <h2>Introducing</h2>
+            <h1>25LabStudio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <Link href="/about">
+              <a className={styles.about}>
+                tentang kami
+              </a>
+            </Link>
+          </div>
         </div>
     </Layout>
   )
