@@ -22,11 +22,13 @@
 
 .main h2 {
   font-size: 43px;
+  font-weight: 900;
 }
 
 .main h1 {
   font-size: 139px;
   margin-top: -15px;
+  font-weight: 900;
 }
 
 .about {
