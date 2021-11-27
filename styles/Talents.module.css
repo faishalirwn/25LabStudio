@@ -1,0 +1,44 @@
+.talents-container {
+    padding-top: 20px;
+}
+
+.talents-container h1 {
+    margin: 0;
+    font-size: 124px;
+    font-weight: bold;
+    opacity: 0.1;
+    text-align: center;
+}
+
+.talents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.talents-item {
+    width: 312px;
+    height: 484px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));    
+}
+
+.talents-info {
+    position: absolute;
+    bottom: 32px;
+    left: -50px; 
+}
+
+.talents-info > * {
+    margin: 0;
+}
+
+.talents-info h2 {
+    margin-bottom: 12px;
+}
