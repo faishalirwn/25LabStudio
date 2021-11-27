@@ -17,6 +17,7 @@ export default function About() {
                 </div>
                 <div className={styles.slider}>
                     <Image
+                        className={styles["slider-img"]}
                         src="/images/andreas-forsberg-rMdOHpO3h5E-unsplash.jpg"
                         width="600"
                         height="400"
