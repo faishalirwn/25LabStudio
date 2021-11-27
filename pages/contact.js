@@ -1,7 +1,6 @@
 import Layout, {siteTitle} from "../components/layout"
 import Head from 'next/head'
 import styles from '../styles/Contact.module.css'
-import Image from 'next/image'
 
 export default function Contact() {
     return (
