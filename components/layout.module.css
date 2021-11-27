@@ -1,5 +1,5 @@
 .container {
-    /* padding: 0 2rem; */
+    padding: 0 100px;
     position: relative;
 }
 
@@ -7,7 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 27px 100px;
+    padding: 27px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .logo {
