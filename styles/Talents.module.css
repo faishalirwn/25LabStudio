@@ -33,7 +33,7 @@
 .talents-info {
     position: absolute;
     bottom: 32px;
-    left: -50px; 
+    left: -30px; 
 }
 
 .talents-info > * {
@@ -80,5 +80,22 @@
     
     .talents-info p {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 624px) {
+    .talents-item {
+        width: 249.6px;
+        height: 387.2px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .talents-info {
+        position: absolute;
+        bottom: 32px;
+        left: -10px; 
     }
 }
