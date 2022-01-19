@@ -10,7 +10,7 @@
     grid-template-rows: repeat(2, 1fr) auto;
 }
 
-.rect {
+.map {
     grid-column: 2;
     grid-row: 1/3;
     background-color: #30303D;
@@ -55,15 +55,34 @@
     .contact-container {
         top: 160.6px;
         height: calc(100vh - 160.6px);
-    }    
-}
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 500px auto;
+    }
 
-@media (max-width: 425px) {
-    .contact {
-        /* TBW */
+    .map {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: #30303D;
     }
 
     .footer {
-        padding: 25px 50px;
+        grid-column: 1;
+    }
+
+    .placeholder {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        padding: 25px 25px;
+    }
+}
+
+@media (max-width: 325px) {
+    .contact-container {
+        top: 203px;
+        height: calc(100vh - 203px);
     }
 }

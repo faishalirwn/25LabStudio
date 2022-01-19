@@ -11,8 +11,8 @@ export default function Contact() {
 			</Head>
 
 			<div className={styles["contact-container"]}>
-				<div></div>
-				<div className={styles.rect}>
+				<div className={styles.placeholder}></div>
+				<div className={styles.map}>
 					<iframe
 						className="w-100 h-100 p-2"
 						id="gmap_canvas"
@@ -56,7 +56,7 @@ export default function Contact() {
 							/>
 						</a>
 					</div>
-					<p>© 2021 25LabStudio</p>
+					<p>© {new Date().getFullYear()} 25LabStudio</p>
 				</footer>
 			</div>
 		</Layout>
