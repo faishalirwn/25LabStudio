@@ -14,42 +14,62 @@ export default function Talents() {
                 <div className={styles.talents}>
                     <div className={styles["talents-item"]}
                         style={{
-                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/dummy/lilas.jpg')"
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/lilas.jpg')"
                         }}
                     >
                         <div className={styles["talents-info"]}>
-                            <h2>Laila S Ukhtita</h2>
-                            <p>Vokalis</p>
+                            <h2>Lilas</h2>
+                            <p>Vocalist</p>
                         </div>
                     </div>
                     <div className={styles["talents-item"]}
                         style={{
-                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/dummy/kenshi.jpg')"
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/kenshi.jpg')"
                         }}
                     >
                         <div className={styles["talents-info"]}>
-                            <h2>Mamang Kenshi</h2>
-                            <p>Vokalis</p>
+                            <h2>Kenshi</h2>
+                            <p>Vocalist</p>
                         </div>
                     </div>
                     <div className={styles["talents-item"]}
                         style={{
-                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/dummy/lilmamat.jpg')"
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/drummer.jpg')"
                         }}
                     >
                         <div className={styles["talents-info"]}>
-                            <h2>Lil Mamat</h2>
-                            <p>LIL MAMAT ARTIST TERBAIK DI TATA SURYA MEMBAWAKAN KEUNIKAN DAN KENIKMATAN ASLI MUSIK.</p>
+                            <h2>John Doe</h2>
+                            <p>Drummer</p>
                         </div>
                     </div>
                     <div className={styles["talents-item"]}
                         style={{
-                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/luwadlin-bosman-pD1KUHCZ9Yc-unsplash.jpg')"
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/violinist.jpg')"
                         }}
                     >
                         <div className={styles["talents-info"]}>
                             <h2>Shakira</h2>
-                            <p>Pianis</p>
+                            <p>Violinist</p>
+                        </div>
+                    </div>
+                    <div className={styles["talents-item"]}
+                        style={{
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/guitarist.jpg')"
+                        }}
+                    >
+                        <div className={styles["talents-info"]}>
+                            <h2>John Doe</h2>
+                            <p>Guitarist</p>
+                        </div>
+                    </div>
+                    <div className={styles["talents-item"]}
+                        style={{
+                            backgroundImage: "linear-gradient(180deg, rgba(191, 52, 203, 0.1), rgba(54, 57, 141, 0.7)), url('/images/talents/pianist.jpg')"
+                        }}
+                    >
+                        <div className={styles["talents-info"]}>
+                            <h2>John Doe</h2>
+                            <p>Pianist</p>
                         </div>
                     </div>
                 </div>
