@@ -13,6 +13,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: rgb(177, 53, 53);
+}
+
 * {
 	box-sizing: border-box;
 }

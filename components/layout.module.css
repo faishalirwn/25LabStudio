@@ -1,62 +1,63 @@
 .container {
-    padding: 0 100px;
-    position: relative;
+	padding: 0 100px;
+	position: relative;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 27px 0;
-    position: relative;
-    z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 27px 0;
+	position: relative;
+	z-index: 2;
 }
 
 .logo {
-    display: inline-block;
-    background-color: white;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+	background-image: url("https://yt3.ggpht.com/ytc/AKedOLRt7umlyO--p_WcgOkXjNcNvFpmTbbhR5DZcUd0=s88-c-k-c0x00ffffff-no-rj");
+	background-size: cover;
+	display: inline-block;
+	/* background-color: white; */
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
 }
 
 .nav-right {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .nav-right li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 60px;
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 60px;
 }
 
-@media (max-width: 768px) {    
-    .container {
-        padding: 0 50px;
-    }
+@media (max-width: 768px) {
+	.container {
+		padding: 0 50px;
+	}
 
-    .nav-right li {
-        margin: 0 15px;
-    }
+	.nav-right li {
+		margin: 0 15px;
+	}
 }
 
-@media (max-width: 500px) {    
-    .container {
-        padding: 0 25px;
-    }
+@media (max-width: 500px) {
+	.container {
+		padding: 0 25px;
+	}
 
-    .nav {
-        flex-direction: column;
-    }
+	.nav {
+		flex-direction: column;
+	}
 
-    .nav-right {
-        margin-top: 15px;
-        text-align: center;
-    }
+	.nav-right {
+		margin-top: 15px;
+		text-align: center;
+	}
 
-    .nav-right li {
-        margin: 5px 10px;
-    }
+	.nav-right li {
+		margin: 5px 10px;
+	}
 }
-

@@ -12,10 +12,29 @@ export default function Contact() {
 
 			<div className={styles["contact-container"]}>
 				<div></div>
-				<div className={styles.rect}></div>
+				<div className={styles.rect}>
+					<iframe
+						className="w-100 h-100 p-2"
+						id="gmap_canvas"
+						src="https://maps.google.com/maps?q=Jl.%20Baros,%20Sukataris,%20Karangtengah,%20Kabupaten%20Cianjur,%20Jawa%20Barat%2043281&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						frameBorder={0}
+						scrolling="no"
+						marginHeight={0}
+						marginWidth={0}
+					/>
+				</div>
 				<div className={styles.contact}>
 					<h1>Contact</h1>
-					<p>email@gmail.com</p>
+					<div className="d-flex my-3">
+						<Image
+							src="/Instagram_simple_icon.svg"
+							alt="Instagram Icon"
+							height={15}
+							width={15}
+						/>
+						<p className="ms-1 m-0">ferldyvy</p>
+					</div>
+
 					<p>
 						Jl. Baros, Sukataris, Karangtengah, Kabupaten Cianjur, Jawa Barat
 						43281
