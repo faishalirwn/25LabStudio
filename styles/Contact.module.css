@@ -25,6 +25,10 @@
     font-weight: 300;
 }
 
+.contact h1 {
+    font-weight: bold;
+}
+
 .footer {
     grid-column: 1/3;
     display: flex;
