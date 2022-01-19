@@ -6,9 +6,10 @@ import styles from "../styles/About.module.css";
 
 export default function About() {
 	const images = [
-		"/images/andreas-forsberg-rMdOHpO3h5E-unsplash.jpg",
-		"/images/andreas-forsberg-rMdOHpO3h5E-unsplash.jpg",
-		"/images/andreas-forsberg-rMdOHpO3h5E-unsplash.jpg",
+		"/images/carousel_1.jpg",
+		"/images/carousel_2.jpg",
+		"/images/carousel_3.jpg",
+		"/images/carousel_4.jpg",
 	];
 	return (
 		<Layout>
@@ -23,11 +24,15 @@ export default function About() {
 						<br /> 25LabStudio
 					</h1>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
-						scelerisque risus urna erat enim fames. Aliquam tortor purus sed
-						vitae pellentesque ultricies aliquam euismod. Quis eget justo
-						ultricies leo facilisi posuere pretium sed. Id gravida egestas
-						aliquet aliquam, sit nibh elit malesuada ac.
+						25 Lab Studio merupakan studio musik, tempat di mana guru dan murid
+						berkolaborasi untuk bereksperimen mengenai segala hal yang berkaitan
+						dengan musik.
+					</p>
+					<p>
+						25 Lab Studio juga memiliki tujuan untuk menggali lalu mengembangkan
+						minat dan bakat yang dimiliki oleh murid-murid 25 Lab Studio, baik
+						bakat di bidang musik maupun di luar musik, baik di lingkungan
+						internal, maupun ekternal.
 					</p>
 				</div>
 				<div className={styles.slider}>
@@ -35,10 +40,11 @@ export default function About() {
 						{images.map((item, i) => (
 							<CarouselItem key={i}>
 								<Image
-									className="d-block w-100"
+									className="d-block"
 									src={item}
 									width="600"
 									height="400"
+									objectFit="cover"
 									alt="carousel-image"
 								/>
 							</CarouselItem>
